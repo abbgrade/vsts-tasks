@@ -1,0 +1,26 @@
+{
+    "common": [],
+    "externals": {
+        "nugetv2": [
+            {
+                "name": "MicrosoftPowerBIMgmt",
+                "version": "1.0.295",
+                "repository": "https://www.powershellgallery.com/api/v2/",
+                "cp": [
+                    {
+                        "source": [
+                            "*.dll",
+                            "*.ps1",
+                            "*.psd1",
+                            "*.psm1",
+                            "lib.json",
+                            "Strings"
+                        ],
+                        "dest": "ps_modules/MicrosoftPowerBIMgmt/",
+                        "options": "-R"
+                    }
+                ]
+            }
+        ]
+    }
+}
