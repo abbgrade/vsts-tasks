@@ -13,6 +13,12 @@ try {
 
     #endregion
 
+    #region Prepare
+
+    Import-Module $PSScriptRoot\ps_modules\
+
+    #endregion
+
     #region Deploy
     
     $workspace = Get-PowerBIWorkspace -Name $workspaceName
