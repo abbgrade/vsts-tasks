@@ -1,0 +1,16 @@
+{
+  "name": "vsts-powerbi-deploy-task",
+  "version": "1.0.0",
+  "description": "VSTS PowerBI Deploy Task",
+  "main": "powerbi.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/vsts-tasks.git"
+  },
+  "author": "Steffen Kampmann",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^3.0.1",
+    "vsts-task-lib": "2.6.0"
+  }
+}
